@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1236</width>
+    <height>809</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MapEditorProfessional</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QDisplayWidget2" name="mapDisplay1" native="true">
+      <widget class="QWidget" name="widget" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>301</width>
+         <height>301</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>373</width>
+        <height>0</height>
+       </size>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="9" column="0">
+        <widget class="QLabel" name="labelPointCount">
+         <property name="text">
+          <string>count:0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>start</string>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="1">
+        <widget class="QPushButton" name="pushButtonInterpolation">
+         <property name="text">
+          <string>interpolation</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="2">
+        <widget class="QPushButton" name="pushButton_down">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>down</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QCheckBox" name="checkBox_enable_move">
+         <property name="text">
+          <string>move select</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QSpinBox" name="spinBoxEnd"/>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>type</string>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="1">
+        <widget class="QPushButton" name="pushButton_setmap">
+         <property name="text">
+          <string>set map</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="1">
+        <widget class="QPushButton" name="pushButton_insert_point">
+         <property name="text">
+          <string>insert point at end</string>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="2">
+        <widget class="QDoubleSpinBox" name="doubleSpinBox_bSplineInterval"/>
+       </item>
+       <item row="15" column="1">
+        <widget class="QPushButton" name="pushButton_Bspline">
+         <property name="text">
+          <string>B-spline</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>end</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="2">
+        <widget class="QPushButton" name="pushButton_up">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>up</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="2">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>move step</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QPushButton" name="pushButtonSetType">
+         <property name="text">
+          <string>set type to select</string>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="2">
+        <widget class="QPushButton" name="pushButton_right">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>right</string>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="2">
+        <widget class="QPushButton" name="pushButton_left">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>left</string>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="1">
+        <widget class="QPushButton" name="pushButtondelete">
+         <property name="text">
+          <string>delete select</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="2">
+        <widget class="QDoubleSpinBox" name="doubleSpinBox_move_step">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QSpinBox" name="spinBoxStart"/>
+       </item>
+       <item row="13" column="1">
+        <widget class="QPushButton" name="pushButton_calcHeading">
+         <property name="text">
+          <string>calc heading</string>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="1">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>B-spline interval</string>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="2">
+        <widget class="QCheckBox" name="checkBox_rearmove">
+         <property name="text">
+          <string>rear move</string>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="2">
+        <widget class="QPushButton" name="pushButton_clear">
+         <property name="text">
+          <string>clear</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QSpinBox" name="spinBoxType">
+         <property name="maximum">
+          <number>199</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QCheckBox" name="checkBox_showIndex">
+         <property name="text">
+          <string>show index</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QCheckBox" name="checkBox_heading">
+         <property name="text">
+          <string>show heading</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QCheckBox" name="checkBox_showtext">
+         <property name="text">
+          <string>show type</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QCheckBox" name="checkBox_showZ">
+         <property name="text">
+          <string>show Z</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QCheckBox" name="checkBox_showSpeedLimit">
+         <property name="text">
+          <string>show speed limit</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="0">
+        <widget class="QLabel" name="label_sum">
+         <property name="text">
+          <string>sum:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="0">
+        <widget class="QLabel" name="label_heading">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1236</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="action_Open"/>
+    <addaction name="actionOpen_File"/>
+    <addaction name="action_Save_as"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_Open">
+   <property name="text">
+    <string>&amp;Open</string>
+   </property>
+  </action>
+  <action name="action_Save_as">
+   <property name="text">
+    <string>&amp;Save as</string>
+   </property>
+  </action>
+  <action name="actionOpen_File">
+   <property name="text">
+    <string>Open &amp;File</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QDisplayWidget2</class>
+   <extends>QWidget</extends>
+   <header>commonUsed/qdisplaywidget2.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

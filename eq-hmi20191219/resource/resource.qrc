@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/"/>
+    <qresource prefix="/new/image">
+        <file>logo.jpg</file>
+        <file>button1.png</file>
+        <file>msyh.ttc</file>
+        <file>hand.png</file>
+        <file>plus.png</file>
+        <file>minus.png</file>
+        <file>poor.png</file>
+        <file>good.png</file>
+        <file>left.png</file>
+        <file>right.png</file>
+        <file>up.png</file>
+        <file>down.png</file>
+        <file>closewise.jpg</file>
+        <file>counterclosewise.jpg</file>
+    </qresource>
+</RCC>

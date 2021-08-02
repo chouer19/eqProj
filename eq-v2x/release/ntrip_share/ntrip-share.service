@@ -1,0 +1,9 @@
+[Unit]
+Description=Ntrip Share
+
+[Service]
+ExecStart=/home/lbs/xuechong/ntrip_share/setup.sh
+
+[Install]
+WantedBy=default.target
+
